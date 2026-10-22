@@ -24,6 +24,16 @@
 			<a href="Controller?action=ShowBooksAction">Show Catalog</a><br /> 
 			<a href="Controller?action=ShowSpecialOfferAction">Show Special Offers!</a> 
 		</article>
+		<form action="Controller" method="POST">
+		    <input type="hidden" name="action" value="LoginAction">
+		    <label>Usuario:</label>
+		    <select name="username">
+		        <option value="user1">User 1 (Admin)</option>
+		        <option value="user2">User 2 (Reader)</option>
+		        <option value="user3">User 3 (Editor)</option>
+		    </select>
+		    <input type="submit" value="Entrar">
+		</form>
 	</section>
 	<footer>
 		<strong> Master in Web Engineering (miw.uniovi.es).</strong><br /> <em>University

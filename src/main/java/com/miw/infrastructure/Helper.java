@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Properties;
 
 /**
- * Esta clase solo tiene métodos de utilidad usados desde @see Factories
+ * Esta clase solo tiene mÃ©todos de utilidad usados desde @see Factories
  * 
  * @author alb
  *

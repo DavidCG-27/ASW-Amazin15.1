@@ -1,0 +1,27 @@
+# Maven y archivos compilados
+/target/
+*.class
+
+# Logs de la aplicación
+*.log
+*.log.*
+
+# Eclipse / Spring Tool Suite
+/.classpath
+/.project
+/.factorypath
+/.settings/
+/.metadata/
+
+# IntelliJ IDEA / Visual Studio Code
+/.idea/
+*.iml
+/.vscode/
+
+# Archivos temporales y del sistema operativo
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
